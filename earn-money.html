@@ -8,86 +8,116 @@
     <style>
         body {
             font-family: 'Roboto', sans-serif;
-            background-color: #f4f8fb;
-            color: #333;
+            background: #0f2027;
+            background: -webkit-linear-gradient(to right, #2c5364, #203a43, #0f2027);
+            background: linear-gradient(to right, #2c5364, #203a43, #0f2027);
+            color: white;
             margin: 0;
             padding: 0;
         }
         header {
             background: linear-gradient(90deg, #1cb5e0, #000046);
-            color: white;
             text-align: center;
-            padding: 20px;
+            padding: 30px;
+            color: white;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
         }
         header h1 {
-            font-size: 2.5rem;
+            font-size: 3rem;
+            font-weight: bold;
         }
         .container {
-            margin-top: 30px;
-            padding: 20px;
+            margin-top: 40px;
+        }
+        .section-title {
+            font-size: 2rem;
+            font-weight: 700;
+            margin-bottom: 20px;
+            text-transform: uppercase;
+            color: #1cb5e0;
         }
         .card {
+            background: rgba(255, 255, 255, 0.1);
             border: none;
-            border-radius: 10px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-            transition: transform 0.2s;
+            border-radius: 15px;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+            transition: transform 0.3s ease-in-out;
+            color: white;
         }
         .card:hover {
-            transform: scale(1.05);
-            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+            transform: translateY(-10px);
+            box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.5);
         }
         footer {
-            background-color: #1cb5e0;
-            color: white;
+            background-color: #000046;
+            padding: 20px;
             text-align: center;
-            padding: 15px;
-            margin-top: 30px;
+            color: white;
+            margin-top: 40px;
         }
         .btn-custom {
             background: linear-gradient(90deg, #1cb5e0, #000046);
-            color: white;
             border: none;
+            color: white;
+            transition: 0.3s ease-in-out;
         }
         .btn-custom:hover {
             background: linear-gradient(90deg, #000046, #1cb5e0);
+            color: white;
         }
     </style>
 </head>
 <body>
     <header>
         <h1>Kiếm Tiền</h1>
-        <p>Tăng thu nhập với những phương pháp hiện đại và hiệu quả</p>
+        <p>Cách tăng thu nhập và tạo ra giá trị bền vững</p>
     </header>
 
     <div class="container">
-        <div class="card p-4 mb-4">
-            <h2 class="mb-3">Làm Thế Nào Để Tăng Thu Nhập?</h2>
-            <p>Kiếm tiền là bước đầu tiên để xây dựng một nền tài chính bền vững. Dưới đây là một số cách bạn có thể áp dụng để gia tăng thu nhập:</p>
-        </div>
+        <h2 class="section-title">Làm Thế Nào Để Kiếm Tiền Hiệu Quả?</h2>
+        <p>Kiếm tiền là một trong những bước quan trọng nhất để cải thiện tài chính cá nhân. Dưới đây là những cách bạn có thể áp dụng ngay để gia tăng thu nhập:</p>
 
         <div class="row">
             <div class="col-md-4 mb-4">
                 <div class="card p-3 text-center">
-                    <h3>Làm Nghề Phụ</h3>
-                    <p>Khám phá các công việc freelance, bán hàng online, hoặc làm tài xế công nghệ.</p>
-                    <a href="#" class="btn btn-custom">Xem thêm</a>
+                    <h4>Làm Nghề Phụ</h4>
+                    <p>Bạn có thể thử sức với các công việc freelance, làm tài xế công nghệ, hoặc bán hàng online.</p>
                 </div>
             </div>
             <div class="col-md-4 mb-4">
                 <div class="card p-3 text-center">
-                    <h3>Đầu Tư Bản Thân</h3>
-                    <p>Nâng cao kỹ năng chuyên môn với các khóa học online.</p>
-                    <a href="#" class="btn btn-custom">Xem thêm</a>
+                    <h4>Đầu Tư Bản Thân</h4>
+                    <p>Học các kỹ năng mới như thiết kế, lập trình, hoặc tiếp thị để tăng giá trị bản thân.</p>
                 </div>
             </div>
             <div class="col-md-4 mb-4">
                 <div class="card p-3 text-center">
-                    <h3>Đầu Tư Tài Sản</h3>
-                    <p>Sử dụng tiền nhàn rỗi để tạo ra thu nhập thụ động từ chứng khoán, tiết kiệm.</p>
-                    <a href="#" class="btn btn-custom">Xem thêm</a>
+                    <h4>Đầu Tư Tài Chính</h4>
+                    <p>Sử dụng tiền nhàn rỗi để đầu tư vào chứng khoán, quỹ mở, hoặc bất động sản.</p>
                 </div>
             </div>
         </div>
+
+        <h2 class="section-title">Chi Tiết Các Phương Pháp</h2>
+        <h3>1. Làm Nghề Phụ</h3>
+        <p>Làm nghề phụ là cách đơn giản và nhanh nhất để bạn tăng thu nhập. Một số gợi ý:</p>
+        <ul>
+            <li>Freelance: Thử sức với viết bài, thiết kế đồ họa, hoặc lập trình.</li>
+            <li>Bán hàng online: Bán sản phẩm handmade hoặc hợp tác với các nền tảng lớn như Shopee, Lazada.</li>
+            <li>Tài xế công nghệ: Gia nhập các nền tảng như Grab, Be, hoặc Gojek.</li>
+        </ul>
+
+        <h3>2. Đầu Tư Bản Thân</h3>
+        <p>Học thêm các kỹ năng cần thiết hoặc nâng cao chuyên môn của bạn thông qua các khóa học online.</p>
+        <p><strong>Các nền tảng gợi ý:</strong> Coursera, Udemy, hoặc Kyna.</p>
+
+        <h3>3. Đầu Tư Tài Chính</h3>
+        <p>Đầu tư thông minh là cách để gia tăng tài sản trong dài hạn. Hãy bắt đầu với những khoản đầu tư nhỏ như:</p>
+        <ul>
+            <li>Chứng khoán: Tìm hiểu về cổ phiếu và trái phiếu.</li>
+            <li>Quỹ mở: Lựa chọn các quỹ có hiệu suất ổn định.</li>
+            <li>Bất động sản: Bắt đầu với những tài sản nhỏ hoặc hợp tác đầu tư.</li>
+        </ul>
 
         <div class="text-center mt-4">
             <a href="index.html" class="btn btn-custom px-4">Quay lại Trang Chủ</a>
